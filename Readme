@@ -1,0 +1,40 @@
+# HelpBridge Kenya
+
+HelpBridge Kenya is a community-driven initiative aimed at bridging the gap between those in need and those who can offer help. Our mission is to provide an accessible platform for donations, registrations, volunteering, and information sharing.
+
+## 🌐 Live Site
+[https://helpbridgekenya.com](https://helpbridgekenya.com)
+
+---
+
+## 📌 Features
+- **Home Page:** Overview of our mission, goals, and recent activities.
+- **About Page:** Background information and our vision for the future.
+- **Donate Page:** Secure channel for financial contributions.
+- **Register Page:** Sign-up portal for volunteers and beneficiaries.
+- **Contact Page:** Communication channel for inquiries and support.
+
+---
+
+## 🚀 Deployment
+This project is deployed via **Netlify**.
+
+**Steps to deploy:**
+1. Push your latest code to your GitHub repository.
+2. Link the repository to Netlify.
+3. Set the custom domain to `helpbridgekenya.com`.
+4. Ensure your DNS records point to Netlify’s name servers.
+
+---
+
+## 🛠️ Installation & Local Setup
+If you wish to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/YourUsername/helpbridge-kenya.git
+
+# Navigate into the project folder
+cd helpbridge-kenya
+
+# Open index.html in your browser
