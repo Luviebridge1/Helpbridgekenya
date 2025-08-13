@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - HelpBridge Kenya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">HelpBridge Kenya</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="impact.html">Impact</a>
+        <a href="donate.html">Donate</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="small-hero">
+    <h1>Support Our Work</h1>
+    <p>Your donation can transform lives and bring hope to communities in need.</p>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <h2>Make a Contribution</h2>
+      <p>We accept contributions via M-Pesa and bank transfer. Every amount, big or small, fuels our mission.</p>
+      <div class="impact-grid">
+        <div class="impact-card">
+          <h3>Paybill</h3>
+          <p><strong>123456</strong></p>
+        </div>
+        <div class="impact-card">
+          <h3>Account</h3>
+          <p><strong>HELPBRIDGE</strong></p>
+        </div>
+        <div class="impact-card">
+          <h3>Bank</h3>
+          <p>Equity Bank, Account No. 0012345678</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HelpBridge Kenya. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    (function(){
+      var here = location.pathname.split('/').pop() || 'index.html';
+      document.querySelectorAll('.nav-links a').forEach(function(a){
+        if(a.getAttribute('href') === here){ a.classList.add('active'); }
+      });
+    })();
+  </script>
+</body>
+               </html>
